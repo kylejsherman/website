@@ -9,7 +9,7 @@ provider "aws" {
 
 locals {
   vpc_tags = {
-    service = "VPC"
+    purpose = "networking"
   }
 }
 
